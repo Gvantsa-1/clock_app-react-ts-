@@ -65,7 +65,11 @@ const BGcontainer = styled.div`
   align-items: center;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  @media only screen and (min-width: 480px) {
+    height: 100vh;
+    overflow: hidden;
+  }
 `;
 const BGimage = styled.div<Props>`
  
