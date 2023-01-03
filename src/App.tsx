@@ -60,7 +60,7 @@ function App() {
 }
 const BGcontainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -72,7 +72,7 @@ const BGimage = styled.div<Props>`
   background-repeat: no-repeat;
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-color: #d8d8d8;
   background-blend-mode: multiply;
   padding: 32px 26px 0 26px;
